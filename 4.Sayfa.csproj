@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56EFADA3-97E7-4E95-8507-1027186E469D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_4.Sayfa</RootNamespace>
+    <AssemblyName>4.Sayfa</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admingiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admingiris.Designer.cs">
+      <DependentUpon>admingiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admingiris2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admingiris2.Designer.cs">
+      <DependentUpon>admingiris2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminSehir.cs" />
+    <Compile Include="Atama.cs" />
+    <Compile Include="Database5DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database5DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dünya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dünya.Designer.cs">
+      <DependentUpon>dünya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girisYapin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girisYapin.Designer.cs">
+      <DependentUpon>girisYapin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GırısAtama.cs" />
+    <Compile Include="türkiye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="türkiye.Designer.cs">
+      <DependentUpon>türkiye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ULASIM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ULASIM.Designer.cs">
+      <DependentUpon>ULASIM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="restoranSehir.cs" />
+    <Compile Include="Interface2.cs" />
+    <Compile Include="kayitsayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kayitsayfasi.Designer.cs">
+      <DependentUpon>kayitsayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Restoran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Restoran.Designer.cs">
+      <DependentUpon>Restoran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tur.Designer.cs">
+      <DependentUpon>Tur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odeme.Designer.cs">
+      <DependentUpon>Odeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sepet.cs" />
+    <Compile Include="Muze.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muze.Designer.cs">
+      <DependentUpon>Muze.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Katalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katalog.Designer.cs">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuzeSehir.cs" />
+    <Compile Include="Otel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Otel.Designer.cs">
+      <DependentUpon>Otel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtelSehir.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TurSehir.cs" />
+    <Compile Include="UlasimSehir.cs" />
+    <Compile Include="şehirler.cs" />
+    <EmbeddedResource Include="admingiris.resx">
+      <DependentUpon>admingiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admingiris2.resx">
+      <DependentUpon>admingiris2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dünya.resx">
+      <DependentUpon>dünya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girisYapin.resx">
+      <DependentUpon>girisYapin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="türkiye.resx">
+      <DependentUpon>türkiye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ULASIM.resx">
+      <DependentUpon>ULASIM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kayitsayfasi.resx">
+      <DependentUpon>kayitsayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Restoran.resx">
+      <DependentUpon>Restoran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tur.resx">
+      <DependentUpon>Tur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Odeme.resx">
+      <DependentUpon>Odeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muze.resx">
+      <DependentUpon>Muze.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katalog.resx">
+      <DependentUpon>Katalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Otel.resx">
+      <DependentUpon>Otel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Database5DataSet.xsc">
+      <DependentUpon>Database5DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database5DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database5DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database5DataSet.xss">
+      <DependentUpon>Database5DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insanicon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\epostaicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sifreicon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database5.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\otobüs.png" />
+    <None Include="Resources\uçak.png" />
+    <None Include="Resources\lock_icon.png" />
+    <None Include="Resources\user_icon.png" />
+    <None Include="Resources\anitkabir-fotografi.jpg" />
+    <None Include="Resources\uzungöl.jpg" />
+    <None Include="Resources\kapadokya.jpg" />
+    <None Include="Resources\antalya.lara.düden.şelalesi.jpg" />
+    <None Include="Resources\tokyo-imparatorluk-sarayı.jpg" />
+    <None Include="Resources\kolezyum-roma.jpg" />
+    <None Include="Resources\Trolltunga.jpg" />
+    <None Include="Resources\neuschwanstein-kalesi.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
